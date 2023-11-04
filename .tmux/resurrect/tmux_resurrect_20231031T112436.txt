@@ -1,0 +1,5 @@
+pane	0	0	1	:*	0	ipfs daemon	:/home/loomt	0	ipfs	:ipfs daemon
+pane	0	0	1	:*	1	loomt@loomt:~/temp	:/home/loomt/temp	0	zsh	:
+pane	0	0	1	:*	2	wget https://go.dev/dl/go1.20.10.linux-386.tar.gz	:/home/loomt/gopath/bin	1	wget	:wget https://go.dev/dl/go1.20.10.linux-386.tar.gz
+window	0	0	:wget	1	:*	45a3,210x51,0,0{105x51,0,0,1,104x51,106,0[104x25,106,0,2,104x25,106,26,3]}	:
+state	0	

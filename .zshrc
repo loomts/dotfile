@@ -5,7 +5,7 @@ alias ll="ls -alF"
 alias la="ls -A"
 alias l="ls -CF"
 alias say="echo"
-alias python="python3"
+alias xclip="xclip -selection clipboard"
 # add debugging-pretty
 alias dslogs="python ~/.pyScript/dslogs.py"
 alias dstest="python ~/.pyScript/dstest.py"
@@ -134,15 +134,19 @@ source $ZSH/oh-my-zsh.sh
 # ccache
 export PATH="/usr/lib/ccache:$PATH"
 export NEMU_HOME=/home/loomt/CSLearning/PA/nemu
-export AM_HOME=/home/loomt/CSLearning/PA/abstract-machine
+export AM_HOME=/home/loomt/CSLearning/NJUOS/os-workbench/abstract-machine
+export ARCH=native
 # go
-# 根目录
 export GOROOT=/usr/local/go
-# 工作目录
-export GOPATH=/home/loomt/go
-# bin目录
+export GOPATH=/home/loomt/gopath
 export GOBIN=$GOPATH/bin
-export PATH=$PATH:$GOPATH
-export PATH=$PATH:$GOBIN
-export PATH=$PATH:$GOROOT/bin
+export PATH=$GOPATH:$GOBIN:$GOROOT/bin:$PATH
+
+export PATH="$HOME/.local/bin:$PATH"
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export OPENAI_API_KEY='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'
 

@@ -1,0 +1,4 @@
+pane	0	0	1	:*	0	ipfs daemon	:/home/loomt	0	ipfs	:ipfs daemon
+pane	0	0	1	:*	1	loomt@loomt:~/gopath/src	:/home/loomt/gopath/src	1	zsh	:
+window	0	0	:zsh	1	:*	0143,120x29,0,0{60x29,0,0,1,59x29,61,0,2}	:
+state	0	
