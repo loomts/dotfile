@@ -1,9 +1,9 @@
-hostip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
-wslip=$(hostname -I | awk '{print $1}')
-port=6003
+export hostip=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
+export wslip=$(hostname -I | awk '{print $1}')
+port=6000
 
 PROXY_HTTP="http://${hostip}:${port}"
-
+PROXY_SOCKS5="socks5://${hostip}:${port}"
 set_proxy(){
     export http_proxy="${PROXY_HTTP}"
     export HTTP_PROXY="${PROXY_HTTP}"
@@ -27,7 +27,8 @@ unset_proxy(){
 test_setting(){
     echo "Host ip:" ${hostip}
     echo "WSL ip:" ${wslip}
-    echo "Current proxy:" $https_proxy
+    echo "Current http proxy:" $https_proxy
+    echo "Current socks proxy:" $all_proxy
 }
 
 if [ "$1" = "set" ]

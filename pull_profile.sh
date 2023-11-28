@@ -1,3 +1,4 @@
+cp proxy.sh /bin/proxy.sh
 cp -r .bashrc ~
 cp -r .tmux.conf ~
 cp -r .vimrc ~

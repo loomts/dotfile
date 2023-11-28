@@ -1,0 +1,5 @@
+pane	0	0	1	:*	0	./chat -listen /ip4/127.0.0.1/tcp/6668	:/home/loomt/gopath/src/go-libp2p/examples/chat-with-rendezvous	0	./chat	:./chat -listen /ip4/127.0.0.1/tcp/6668
+pane	0	0	1	:*	1	./chat -listen /ip4/127.0.0.1/tcp/6666	:/home/loomt/gopath/src/go-libp2p/examples/chat-with-rendezvous	1	./chat	:./chat -listen /ip4/127.0.0.1/tcp/6666
+pane	0	0	1	:*	2	loomt@loomt:~/gopath/src/go-libp2p/examples/chat-with-rendezvous	:/home/loomt/gopath/src/go-libp2p/examples/chat-with-rendezvous	0	zsh	:
+window	0	0	:[tmux]	1	:*	459f,210x51,0,0{105x51,0,0,0,104x51,106,0[104x25,106,0,2,104x25,106,26,3]}	:
+state	0	

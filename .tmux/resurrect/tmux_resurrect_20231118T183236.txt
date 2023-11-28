@@ -1,0 +1,7 @@
+pane	0	0	1	:*	0	loomt@loomt:~/gopath/src/reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	1	zsh	:
+pane	0	0	1	:*	1	loomt@loomt:~/gopath/src/reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	0	zsh	:
+pane	0	0	1	:*	2	loomt@loomt:~/gopath/src/go-libp2p/examples/chat	:/home/loomt/gopath/src/go-libp2p/examples/chat	0	zsh	:
+pane	1	0	1	:*	0	loomt	:/home/loomt	1	zsh	:
+window	0	0	:zsh	1	:*	459f,210x51,0,0{105x51,0,0,0,104x51,106,0[104x25,106,0,2,104x25,106,26,3]}	:
+window	1	0	:zsh	1	:*	b0e1,210x51,0,0,4	:
+state	1	

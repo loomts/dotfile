@@ -1,0 +1,6 @@
+pane	0	0	1	:*	0	ipfs daemon	:/home/loomt/.ipfs	0	ipfs	:ipfs daemon
+pane	0	0	1	:*	1	loomt@loomt:~/.ipfs-cluster-follow/ali	:/home/loomt/.ipfs-cluster-follow/ali	0	zsh	:
+pane	0	0	1	:*	2	ipfs-cluster-follow ali run	:/home/loomt/.ipfs-cluster-follow	0	ipfs-cluster-follow	:ipfs-cluster-follow ali run
+pane	0	0	1	:*	3	loomt@loomt:~/.ipfs-cluster-follow/ali	:/home/loomt/.ipfs-cluster-follow/ali	1	zsh	:
+window	0	0	:zsh	1	:*	3d84,210x51,0,0[210x23,0,0{119x23,0,0,1,90x23,120,0,2},210x27,0,24{119x27,0,24,3,90x27,120,24,4}]	:
+state	0	

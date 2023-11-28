@@ -148,5 +148,23 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-export OPENAI_API_KEY='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'
+
+export HOSTIP=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
+export WSLIP=$(hostname -I | awk '{print $1}')
+
+export GOLOG_LOG_FMT="color" 
+export GOLOG_LOG_LEVEL="info,subsystem1=info,subsystem2=debug"
+
+
+# ipfs
+export CLUSTER_SECRET="4deadf7d09d140ec0e664aa56873e9bbfc8d0713144e39cd3babaf88ca549bab"
+export LIBP2P_FORCE_PNET=1
+
+alias ictl="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-ctl/ipfs-cluster-ctl"
+alias ifollow="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-follow/ipfs-cluster-follow"
+alias iservice="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-service/ipfs-cluster-service"
+
+alias cctl="ipfs-cluster-ctl"
+alias cfollow="ipfs-cluster-follow"
+alias cservice="ipfs-cluster-service"
 

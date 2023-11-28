@@ -1,0 +1,5 @@
+pane	0	0	1	:*	0	go build && ./reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	0	./reedsolomon-coordinator	:./reedsolomon-coordinator
+pane	0	0	1	:*	1	./reedsolomon-coordinator -d 	:/home/loomt/gopath/src/reedsolomon-coordinator	0	./reedsolomon-coordinator	:./reedsolomon-coordinator -d /ip4/172.30.124.174/tcp/34595/p2p/12D3KooWLdxDaNeDGbUeDDgypcBXxi6ffuU7A54syfHkc6ZvmWTE
+pane	0	0	1	:*	2	loomt@loomt:~/.reedsolomon-coordinator	:/home/loomt/.reedsolomon-coordinator	1	zsh	:
+window	0	0	:zsh	1	:*	34a7,210x51,0,0{120x51,0,0,1,89x51,121,0[89x28,121,0,2,89x22,121,29,3]}	:
+state	0	

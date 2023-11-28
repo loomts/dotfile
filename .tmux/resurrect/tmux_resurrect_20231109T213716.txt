@@ -1,0 +1,5 @@
+pane	0USTER_SECRET}lsls	0	1	:*	0	loomt@loomt:~/temp/playground/ipfs-cluster	:/home/loomt/temp/playground/ipfs-cluster	1	zsh	:
+pane	0USTER_SECRET}lsls	0	1	:*	1	ipfs daemon	:/home/loomt	0	ipfs	:ipfs daemon
+pane	0USTER_SECRET}lsls	0	1	:*	2	ipfs-cluster-service daemon	:/home/loomt	0	ipfs-cluster-service	:ipfs-cluster-service daemon
+window	0USTER_SECRET}lsls	0	:zsh	1	:*	210b,135x34,0,0{67x34,0,0,1,67x34,68,0[67x17,68,0,2,67x16,68,18,3]}	:
+state	0USTER_SECRET}lsls	

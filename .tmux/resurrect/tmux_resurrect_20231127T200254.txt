@@ -1,0 +1,6 @@
+pane	0	0	1	:*	0	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	0	0	1	:*	1	loomt@loomt:~/.ipfs-cluster-follow/ipfs-cluster-ali	:/home/loomt/.ipfs-cluster-follow/ipfs-cluster-ali\ (deleted)	0	zsh	:
+pane	0	0	1	:*	2	loomt@loomt:~/.ipfs-cluster-follow	:/home/loomt/.ipfs-cluster-follow	1	zsh	:
+pane	0	0	1	:*	3	loomt@loomt:~	:/home/loomt	0	zsh	:
+window	0	0	:zsh	1	:*	9123,210x51,0,0[210x18,0,0{119x18,0,0,1,90x18,120,0,2},210x32,0,19{119x32,0,19,3,90x32,120,19,8}]	:
+state	0	

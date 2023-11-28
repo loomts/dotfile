@@ -1,0 +1,14 @@
+pane	0	0	1	:*	0	loomt@loomt:~/gopath/src/reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	1	zsh	:
+pane	0	0	1	:*	1	loomt@loomt:~/gopath/src/reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	0	zsh	:
+pane	0	0	1	:*	2	loomt@loomt:~/gopath/src/go-libp2p/examples/chat	:/home/loomt/gopath/src/go-libp2p/examples/chat	0	zsh	:
+pane	1	0	1	:*	0	loomt@loomt:~/gopath/src/go-libp2p/examples/chat	:/home/loomt/gopath/src/go-libp2p/examples/chat	0	zsh	:
+pane	1	0	1	:*	1	loomt@loomt:~/gopath/src/go-libp2p/examples/chat	:/home/loomt/gopath/src/go-libp2p/examples/chat	1	zsh	:
+pane	1	0	1	:*	2	loomt@loomt:~/gopath/src/go-libp2p/examples/chat	:/home/loomt/gopath/src/go-libp2p/examples/chat	0	zsh	:
+pane	3	0	1	:*	0	go build && ./reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	0	./reedsolomon-coordinator	:./reedsolomon-coordinator
+pane	3	0	1	:*	1	loomt@loomt:~/gopath/src/reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	1	zsh	:
+pane	4	0	1	:*	0	loomt@loomt:~/gopath/src/reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	1	zsh	:
+window	0	0	:zsh	1	:*	459f,210x51,0,0{105x51,0,0,0,104x51,106,0[104x25,106,0,2,104x25,106,26,3]}	:
+window	1	0	:zsh	1	:*	2ced,210x51,0,0{105x51,0,0[105x25,0,0,12,105x25,0,26,13],104x51,106,0,14}	:
+window	3	0	:zsh	1	:*	c107,120x29,0,0{60x29,0,0,9,59x29,61,0,10}	:
+window	4	0	:zsh	1	:*	58a0,210x51,0,0,11	:
+state	3	1

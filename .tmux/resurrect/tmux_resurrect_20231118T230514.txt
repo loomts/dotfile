@@ -1,0 +1,4 @@
+pane	0	0	1	:*	0	go build && ./reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	0	./reedsolomon-coordinator	:./reedsolomon-coordinator
+pane	0	0	1	:*	1	./reedsolomon-coordinator -d 	:/home/loomt/gopath/src/reedsolomon-coordinator	1	./reedsolomon-coordinator	:./reedsolomon-coordinator -d /ip4/172.30.124.174/tcp/43825/p2p/12D3KooWQL5cojEPVzLCbDhxdbBtexd8tUEmL9t4jcY7KijiS98N
+window	0	0	:./reedsolomon-coordinator	1	:*	46ec,210x51,0,0{105x51,0,0,0,104x51,106,0,1}	:
+state	0	

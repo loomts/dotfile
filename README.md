@@ -1,3 +1,3 @@
-# linux-script
+# dotfile
 
 profile backup

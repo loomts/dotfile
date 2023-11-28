@@ -1,0 +1,4 @@
+pane	0	0	1	:*	0	go build && ./reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	0	./reedsolomon-coordinator	:./reedsolomon-coordinator
+pane	0	0	1	:*	1	loomt@loomt:~/gopath/src/reedsolomon-coordinator	:/home/loomt/gopath/src/reedsolomon-coordinator	1	zsh	:
+window	0	0	:zsh	1	:*	46ec,210x51,0,0{105x51,0,0,0,104x51,106,0,1}	:
+state	0	

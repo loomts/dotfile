@@ -1,0 +1,4 @@
+pane	0	0	1	:*	0	docker-compose up	:/home/loomt/temp/playground/ipfs-cluster	1	docker-compose	:docker-compose up
+pane	0	0	1	:*	1	loomt@loomt:~/temp/playground/ipfs-cluster	:/home/loomt/temp/playground/ipfs-cluster	0	zsh	:
+window	0	0	:docker-compose	1	:*	e1f0,210x57,0,0{105x57,0,0,1,104x57,106,0,2}	:
+state	0	
