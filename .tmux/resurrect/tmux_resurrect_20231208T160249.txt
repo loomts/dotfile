@@ -1,0 +1,11 @@
+pane	0	0	1	:*	0	loomt@loomt:~/.ipfs	:/home/loomt/.ipfs	0	zsh	:
+pane	0	0	1	:*	1	loomt@loomt:~/github/dotfile	:/home/loomt/github/dotfile	0	zsh	:
+pane	0	0	1	:*	2	loomt@loomt:~/.ipfs-cluster-follow	:/home/loomt/.ipfs-cluster-follow	0	zsh	:
+pane	0	0	1	:*	3	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	1	0	1	:*	0	ipfs daemon	:/home/loomt/.ipfs	0	ipfs	:ipfs daemon
+pane	1	0	1	:*	1	 daemon	:/home/loomt	0	ipfs-cluster-service	:/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-service/ipfs-cluster-service daemon
+pane	1	0	1	:*	2	loomt@loomt:~/temp	:/home/loomt/temp	0	zsh	:
+pane	1	0	1	:*	3	loomt@loomt:~/.ipfs-cluster-follow	:/home/loomt/.ipfs-cluster-follow	1	zsh	:
+window	0	0	:zsh	1	:*	142c,281x70,0,0[281x31,0,0{155x31,0,0,1,125x31,156,0,2},281x38,0,32{155x38,0,32,3,125x38,156,32,4}]	:
+window	1	0	:zsh	1	:*	f2de,281x70,0,0{165x70,0,0[165x39,0,0,5,165x30,0,40,6],115x70,166,0[115x39,166,0,7,115x30,166,40,8]}	:
+state	1	0

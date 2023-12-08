@@ -160,7 +160,8 @@ export GOLOG_LOG_LEVEL="info,subsystem1=info,subsystem2=debug"
 export CLUSTER_SECRET="4deadf7d09d140ec0e664aa56873e9bbfc8d0713144e39cd3babaf88ca549bab"
 export LIBP2P_FORCE_PNET=1
 
-alias ictl="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-ctl/ipfs-cluster-ctl"
+alias ictl="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-ctl/ipfs-cluster-ctl --host /unix//home/loomt/.ipfs-cluster-follow/ali/api-socket"
+alias isctl="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-ctl/ipfs-cluster-ctl"
 alias ifollow="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-follow/ipfs-cluster-follow"
 alias iservice="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-service/ipfs-cluster-service"
 

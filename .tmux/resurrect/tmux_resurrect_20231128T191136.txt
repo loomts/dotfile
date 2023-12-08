@@ -1,0 +1,6 @@
+pane	0	0	1	:*	0	ipfs daemon	:/home/loomt/.ipfs	0	ipfs	:ipfs daemon
+pane	0	0	1	:*	1	loomt@loomt:~/github/dotfile	:/home/loomt/github/dotfile	0	zsh	:
+pane	0	0	1	:*	2	ipfs-cluster-follow ali run	:/home/loomt/.ipfs-cluster-follow	1	ipfs-cluster-follow	:ipfs-cluster-follow ali run
+pane	0	0	1	:*	3	loomt@loomt:~/.ipfs-cluster-follow/ali	:/home/loomt/.ipfs-cluster-follow/ali	0	zsh	:
+window	0	0	:ipfs-cluster-follow	1	:*	df8d,210x51,0,0[210x21,0,0{119x21,0,0,1,90x21,120,0,2},210x29,0,22{119x29,0,22,3,90x29,120,22,4}]	:
+state	0	
