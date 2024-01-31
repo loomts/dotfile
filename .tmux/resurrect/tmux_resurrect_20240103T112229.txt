@@ -1,0 +1,32 @@
+pane	0	0	1	:*	0	loomt@loomt:~/.ipfs	:/home/loomt/.ipfs	0	zsh	:
+pane	0	0	1	:*	1	loomt@loomt:~/github/dotfile	:/home/loomt/github/dotfile	0	zsh	:
+pane	0	0	1	:*	2	loomt@loomt:~/.ipfs-cluster-follow	:/home/loomt/.ipfs-cluster-follow	0	zsh	:
+pane	0	0	1	:*	3	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	1	0	1	:*	0	loomt@loomt:~/.ipfs	:/home/loomt/.ipfs	0	zsh	:
+pane	1	0	1	:*	1	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	1	0	1	:*	2	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	1	0	1	:*	3	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	10	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	10	0	1	:*	1	loomt@loomt:~/temp	:/home/loomt/temp	0	zsh	:
+pane	2	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	3	0	1	:*	0	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	3	0	1	:*	1	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	3	0	1	:*	2	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	3	0	1	:*	3	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	4	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	5	0	1	:*	0	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	5	0	1	:*	1	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	5	0	1	:*	2	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	5	0	1	:*	3	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	7	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	8	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+window	0	0	:zsh	1	:*	b4c2,281x70,0,0[281x30,0,0{155x30,0,0,1,125x30,156,0,2},281x39,0,31{155x39,0,31,3,125x39,156,31,4}]	:
+window	1	0	:zsh	1	:*	ec36,281x70,0,0{152x70,0,0[152x22,0,0,5,152x47,0,23,6],128x70,153,0[128x22,153,0,7,128x47,153,23,8]}	:
+window	10	0	:zsh	1	:*	8bd1,281x70,0,0[281x32,0,0,30,281x37,0,33,31]	:
+window	2	0	:zsh	1	:*	b326,281x70,0,0,9	:
+window	3	0	:zsh	1	:*	00ce,281x70,0,0{174x70,0,0[174x27,0,0,10,174x42,0,28,11],106x70,175,0[106x27,175,0,12,106x42,175,28,13]}	:
+window	4	0	:zsh	1	:*	59c3,281x70,0,0,14	:
+window	5	0	:zsh	1	:*	810f,281x70,0,0[281x22,0,0{177x22,0,0,15,103x22,178,0,16},281x47,0,23{177x47,0,23,17,103x47,178,23,18}]	:
+window	7	0	:zsh	1	:*	d9c1,281x70,0,0,22	:
+window	8	0	:zsh	1	:*	d9c2,281x70,0,0,23	:
+state	10	7

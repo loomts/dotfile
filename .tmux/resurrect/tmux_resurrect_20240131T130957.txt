@@ -1,0 +1,60 @@
+pane	0	0	1	:*	0	loomt@loomt:~/.ipfs	:/home/loomt/.ipfs	0	zsh	:
+pane	0	0	1	:*	1	loomt@loomt:~/github/dotfile	:/home/loomt/github/dotfile	0	zsh	:
+pane	0	0	1	:*	2	loomt@loomt:~/.ipfs-cluster-follow	:/home/loomt/.ipfs-cluster-follow	0	zsh	:
+pane	0	0	1	:*	3	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	1	0	1	:*	0	loomt@loomt:~/.ipfs	:/home/loomt/.ipfs	0	zsh	:
+pane	1	0	1	:*	1	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	1	0	1	:*	2	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	1	0	1	:*	3	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	10	0	1	:*	0	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	10	0	1	:*	1	loomt@loomt:~/temp	:/home/loomt/temp	0	zsh	:
+pane	11	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	12	0	1	:*	0	loomt@loomt:~/gopath/src/ipfs-cluster	:/home/loomt/gopath/src/ipfs-cluster	1	zsh	:
+pane	13	0	1	:*	0	loomt@loomt:~/temp	:/home/loomt/temp	0	zsh	:
+pane	13	0	1	:*	1	loomt@loomt:~/temp	:/home/loomt/temp	0	zsh	:
+pane	13	0	1	:*	2	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	14	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	15	0	1	:*	0	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	16	0	1	:*	0	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	17	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	18	0	1	:*	0	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	18	0	1	:*	1	loomt@loomt:~/temp	:/home/loomt/temp	0	zsh	:
+pane	18	0	1	:*	2	loomt@loomt:~/gopath/src/ipfs-cluster	:/home/loomt/gopath/src/ipfs-cluster	1	zsh	:
+pane	19	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	2	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	20	0	1	:*	0	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	20	0	1	:*	1	loomt@loomt:~/gopath/src/ipfs-cluster	:/home/loomt/gopath/src/ipfs-cluster	0	zsh	:
+pane	21	0	1	:*	0	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	21	0	1	:*	1	loomt@loomt:~/temp	:/home/loomt/temp	0	zsh	:
+pane	3	0	1	:*	0	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	3	0	1	:*	1	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	3	0	1	:*	2	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	3	0	1	:*	3	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	4	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	5	0	1	:*	0	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	5	0	1	:*	1	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	5	0	1	:*	2	loomt@loomt:~	:/home/loomt	0	zsh	:
+pane	5	0	1	:*	3	loomt@loomt:~/temp	:/home/loomt/temp	1	zsh	:
+pane	7	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+pane	8	0	1	:*	0	loomt@loomt:~	:/home/loomt	1	zsh	:
+window	0	0	:zsh	1	:*	80c6,210x51,0,0[210x20,0,0{118x20,0,0,1,91x20,119,0,2},210x30,0,21{118x30,0,21,3,91x30,119,21,4}]	:
+window	1	0	:zsh	1	:*	27d0,210x51,0,0{115x51,0,0[115x12,0,0,5,115x38,0,13,6],94x51,116,0[94x12,116,0,7,94x38,116,13,8]}	:
+window	10	0	:zsh	1	:*	4002,210x51,0,0[210x38,0,0,9,210x12,0,39,10]	:
+window	11	0	:zsh	1	:*	58a0,210x51,0,0,11	:
+window	12	0	:zsh	1	:*	58a1,210x51,0,0,12	:
+window	13	0	:zsh	1	:*	54ea,210x51,0,0[210x12,0,0,13,210x38,0,13{130x38,0,13,14,79x38,131,13,15}]	:
+window	14	0	:zsh	1	:*	58a5,210x51,0,0,16	:
+window	15	0	:zsh	1	:*	58a6,210x51,0,0,17	:
+window	16	0	:zsh	1	:*	58a7,210x51,0,0,18	:
+window	17	0	:zsh	1	:*	58a8,210x51,0,0,19	:
+window	18	0	:zsh	1	:*	04c0,210x51,0,0{91x51,0,0[91x32,0,0,20,91x18,0,33,21],118x51,92,0,22}	:
+window	19	0	:zsh	1	:*	d8a2,210x51,0,0,23	:
+window	2	0	:zsh	1	:*	d8a3,210x51,0,0,24	:
+window	20	0	:zsh	1	:*	f516,210x51,0,0{63x51,0,0,25,146x51,64,0,26}	:
+window	21	0	:zsh	1	:*	f37b,85x37,0,0{42x37,0,0,27,42x37,43,0,40}	:
+window	3	0	:zsh	1	:*	d883,210x51,0,0{137x51,0,0[137x17,0,0,29,137x33,0,18,30],72x51,138,0[72x17,138,0,31,72x33,138,18,32]}	:
+window	4	0	:zsh	1	:*	58a3,210x51,0,0,33	:
+window	5	0	:zsh	1	:*	b946,210x51,0,0[210x12,0,0{140x12,0,0,34,69x12,141,0,35},210x38,0,13{140x38,0,13,36,69x38,141,13,37}]	:
+window	7	0	:zsh	1	:*	58a8,210x51,0,0,38	:
+window	8	0	:zsh	1	:*	58a9,210x51,0,0,39	:
+state	21	7

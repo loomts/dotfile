@@ -126,3 +126,4 @@ export NVM_DIR="$HOME/.nvm"
 export PATH="/usr/lib/ccache:$PATH"
 export NEMU_HOME=/home/loomt/CSLearning/PA/nemu
 export AM_HOME=/home/loomt/CSLearning/PA/abstract-machine
+. "$HOME/.cargo/env"

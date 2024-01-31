@@ -5,7 +5,7 @@ alias ll="ls -alF"
 alias la="ls -A"
 alias l="ls -CF"
 alias say="echo"
-alias xclip="xclip -selection clipboard"
+alias copy="xclip -selection clipboard"
 # add debugging-pretty
 alias dslogs="python ~/.pyScript/dslogs.py"
 alias dstest="python ~/.pyScript/dstest.py"
@@ -93,7 +93,6 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
 		z
-		docker
 		git
 		sudo
 		zsh-autosuggestions
@@ -152,14 +151,28 @@ export NVM_DIR="$HOME/.nvm"
 export HOSTIP=$(cat /etc/resolv.conf | grep nameserver | awk '{ print $2 }')
 export WSLIP=$(hostname -I | awk '{print $1}')
 
+update_dockercfg(){
+	cat > ~/.docker/config.json << EOF
+{
+  "proxies": {
+    "default": {
+      "http_proxy": "$HTTP_PROXY",
+      "https_proxy": "$HTTP_PROXY",
+      "noProxy": "localhost"
+    }
+  }
+}
+EOF
+}
 export GOLOG_LOG_FMT="color" 
-export GOLOG_LOG_LEVEL="info,subsystem1=info,subsystem2=debug"
+export GOLOG_LOG_LEVEL="debug,subsystem1=info,subsystem2=debug"
 
 
 # ipfs
 export CLUSTER_SECRET="4deadf7d09d140ec0e664aa56873e9bbfc8d0713144e39cd3babaf88ca549bab"
 export LIBP2P_FORCE_PNET=1
 
+alias dctl="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-ctl/ipfs-cluster-ctl"
 alias ictl="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-ctl/ipfs-cluster-ctl --host /unix//home/loomt/.ipfs-cluster-follow/ali/api-socket"
 alias isctl="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-ctl/ipfs-cluster-ctl"
 alias ifollow="/home/loomt/gopath/src/ipfs-cluster/cmd/ipfs-cluster-follow/ipfs-cluster-follow"
@@ -169,3 +182,76 @@ alias cctl="ipfs-cluster-ctl"
 alias cfollow="ipfs-cluster-follow"
 alias cservice="ipfs-cluster-service"
 
+
+export GOLOG_LOG_LEVEL="info,subsystem1=warn,subsystem2=debug"
+
+alias dctlmake='
+cd $GOPATH/src/ipfs-cluster/cmd/ipfs-cluster-ctl && make
+cd $GOPATH/src/ipfs-cluster
+
+docker build -t ipfs-cluster-erasure -f Dockerfile-erasure .
+sleep 2
+docker-compose -f docker-compose-erasure.yml up -d
+sleep 10
+
+# alias dctl="$GOPATH/src/ipfs-cluster/cmd/ipfs-cluster-ctl/ipfs-cluster-ctl"
+
+# QmSxdRX48W7PeS4uNEmhcx4tAHt7rzjHWBwLHetefZ9AvJ is the cid of tmpfile
+# ci="QmSxdRX48W7PeS4uNEmhcx4tAHt7rzjHWBwLHetefZ9AvJ"
+# dctl pin rm $ci
+# cd ~/temp
+# dctl add gdb-13.1.tar.xz -n gdb --shard --shard-size 10234567 --erasure
+
+# seq 1 250000 > tmpfile
+# dctl add tmpfile -n tmpfile --shard --shard-size 512000 --erasure
+# dctl add tmpfile -n tmpfile --shard --shard-size 512000 --erasure --data-shards 4 --parity-shards 2
+# rm tmpfile
+docker logs -f cluster0 | tspin -c ~/.config/tailspin
+'
+
+
+dctltest() {
+  cd $GOPATH/src/ipfs-cluster/cmd/ipfs-cluster-ctl && make
+  cd $GOPATH/src/ipfs-cluster
+
+  docker build -t ipfs-cluster-erasure -f Dockerfile-erasure .
+  sleep 2
+  docker-compose -f docker-compose-erasure.yml up -d
+  sleep 10    
+    
+	# QmSxdRX48W7PeS4uNEmhcx4tAHt7rzjHWBwLHetefZ9AvJ is the cid of tmpfile
+  ci="QmSxdRX48W7PeS4uNEmhcx4tAHt7rzjHWBwLHetefZ9AvJ"
+  dctl pin rm $ci
+
+  seq 1 250000 > tmpfile
+  dctl add tmpfile -n tmpfile --shard --shard-size 512000 --erasure #--erasure --data-shards 4 --parity-shards 2
+  rm tmpfile
+  sleep 2
+
+  # find frist peer no equal cluster0 and store sharding data
+  # awk '$1 == 1 && $2 != 0 {print $2}' means that find the peer that store one shard and it's id not cluster0(cluster0 expose port)
+  x=$(dctl status --filter pinned | grep cluster | awk -F'cluster' '{print $2}' | awk '{print $1}' | sort | uniq -c | awk '$1 == 3 && $2 != 0 {print $2}' | head -n 1)
+  docker stop "cluster$x" "ipfs$x"
+
+  sleep 1
+  dctl ipfs gc
+  dctl status --filter pinned
+
+  output=$(dctl ecrecovery | awk '{print $1}')
+
+  if [ "$output" = "$ci" ]; then
+    echo "The strings are equal, test pass."
+  else
+    echo "The strings are not equal, test fail."
+  fi
+}
+
+
+docker_clean() {
+	docker system prune -a
+	docker image prune -a
+	docker container prune -a
+}
+
+# rust
+source "$HOME/.cargo/env"
