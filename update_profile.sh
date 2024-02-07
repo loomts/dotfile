@@ -1,10 +1,10 @@
-echo "this operate will recover your dotfile! [y/N]"
-read -k 1 -r REPLY
-echo
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-    exit 1
-fi
+read -p "this operate will recover your dotfile! [y/N]" reply
+case $reply in
+(Y|y)
+  ;;
+(*)
+  exit;;
+esac
 
 cp /bin/proxy.sh .
 cp ~/.bashrc .

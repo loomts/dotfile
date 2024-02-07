@@ -1,10 +1,10 @@
-echo "this operate will recover your dotfile! [y/N]"
-read -p "" -n 1 -r
-echo
-if [[ ! $REPLY =~ ^[Yy]$ ]]
-then
-    exit 1
-fi
+read -p "this operate will recover your dotfile! [y/N]" reply
+case $reply in 
+(Y|y)
+	;;	
+(*)
+	exit;;
+esac
 
 git pull
 cp proxy.sh /bin/proxy.sh
