@@ -5,7 +5,7 @@ cp ~/.vimrc .
 cp ~/.yarnrc .
 cp ~/.zshrc .
 rsync -r --exclude='.git' ~/.oh-my-zsh .
-rsync -r --exclude='.git' ~/.tmux .
+rsync -r --exclude='.git' --exclude='resurrect' ~/.tmux .
 
 git add .
 git commit -m "wsl backup `date +'%Y-%m-%d %H-%M-%S'`"
