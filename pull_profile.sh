@@ -1,4 +1,3 @@
-git pull
 echo "this operate will recover your dotfile! [y/N]"
 read -p "" -n 1 -r
 echo
@@ -7,6 +6,7 @@ then
     exit 1
 fi
 
+git pull
 cp proxy.sh /bin/proxy.sh
 cp -r .bashrc ~
 cp -r .tmux.conf ~
