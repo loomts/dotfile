@@ -9,7 +9,7 @@ set_proxy(){
     export HTTP_PROXY="${PROXY_HTTP}"
 
     export https_proxy="${PROXY_HTTP}"
-    export HTTPS_proxy="${PROXY_HTTP}"
+    export HTTPS_PROXY="${PROXY_HTTP}"
 
     export ALL_PROXY="${PROXY_SOCKS5}"
     export all_proxy=${PROXY_SOCKS5}
